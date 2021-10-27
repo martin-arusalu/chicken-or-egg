@@ -1,4 +1,5 @@
 import * as fs from 'fs';
+import { ANSWER_FILE } from '../constants';
 
 /**
  * When correct answer reached, will write it down to `answer.txt` file.
@@ -13,5 +14,5 @@ import * as fs from 'fs';
  * ```
  */
 export function writeAnswerDown(answer: string) {
-  fs.writeFileSync('answer.txt', answer);
+  fs.writeFileSync(ANSWER_FILE, answer);
 }
