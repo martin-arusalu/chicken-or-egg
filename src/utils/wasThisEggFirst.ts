@@ -12,7 +12,6 @@ import { Egg } from '../classes';
  * ```
  */
 export function wasThisEggFirst(egg: Egg): boolean {
-  console.log('wuzzssss');
   if (egg.origin) {
     return false; // Nah, it goes deeper!
   }

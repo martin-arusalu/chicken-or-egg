@@ -12,7 +12,6 @@ import { Chicken } from '../classes';
  * ```
  */
 export function wasThisChickenFirst(chicken: Chicken): boolean {
-  console.log('wassss');
   if (chicken.origin) {
     return false; // Nah, it goes deeper!
   }
