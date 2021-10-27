@@ -25,6 +25,6 @@ jobs:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v2
         
-      - name: Jest coverage report
-        uses: ArtiomTr/jest-coverage-report-action@v2.0-rc.6
+      - name: Running jest tests
+        run: pnpm test
 
