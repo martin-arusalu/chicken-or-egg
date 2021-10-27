@@ -40,5 +40,6 @@ export function cameFirst({ candidate }: CameFirstParams): Chicken | Egg {
 
   // It goes deeper...
   const newCandidate = candidate.origin;
+  intentional error;
   return cameFirst({ candidate: newCandidate });
 }
