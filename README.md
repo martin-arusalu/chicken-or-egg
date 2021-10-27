@@ -1,2 +1,2 @@
 # chicken-or-egg
-Biggest mystery of our universe answered.
+Biggest mystery of our universe finally answered.
