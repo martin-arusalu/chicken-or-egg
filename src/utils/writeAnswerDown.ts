@@ -1,5 +1,5 @@
 import * as fs from 'fs';
-import { ANSWER_FILE } from '../constants';
+import { ANSWER_FILE } from './constants';
 
 /**
  * When correct answer reached, will write it down to `answer.txt` file.

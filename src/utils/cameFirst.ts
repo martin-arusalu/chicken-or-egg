@@ -1,5 +1,5 @@
 import { Chicken, Egg } from '../classes';
-import { CHICKEN, EGG } from '../constants';
+import { CHICKEN, EGG } from './constants';
 import { wasThisChickenFirst, wasThisEggFirst, writeAnswerDown } from '../utils';
 
 /**

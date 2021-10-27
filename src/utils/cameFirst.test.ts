@@ -1,6 +1,6 @@
 import { wasThisChickenFirst } from './wasThisChickenFirst';
 import { Chicken, Egg } from '../classes';
-import { CHICKEN, EGG } from '../constants';
+import { CHICKEN, EGG } from './constants';
 import { cameFirst } from './cameFirst';
 import { writeAnswerDown } from './writeAnswerDown';
 import { wasThisEggFirst } from './wasThisEggFirst';

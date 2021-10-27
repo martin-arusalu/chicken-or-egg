@@ -1,5 +1,5 @@
 import * as fs from 'fs';
-import { ANSWER_FILE, EGG } from '../constants';
+import { ANSWER_FILE, EGG } from './constants';
 import { writeAnswerDown } from './writeAnswerDown';
 
 jest.mock('fs', () => ({

@@ -19,8 +19,9 @@
   },
   "scripts": {
     "test": "jest",
-    "build": "tsc --project ./",
-    "start": "pnpm build && node ./build/index.js"
+    "type-check": "tsc --noEmit",
+    "type-check:watch": "pnpm run type-check -- --watch",
+    "build": "babel src --out-dir build --extensions \".ts\" --source-maps inline"
   },
   "repository": {
     "type": "git",
